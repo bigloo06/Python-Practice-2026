@@ -2,7 +2,7 @@ import pyautogui
 import cv2
 import numpy as np
 
-def rec(resolution=(2880, 1800), filename='Recording.avi', fps=10.0): # method which can take resolution, filename and fps 
+def rec(resolution=(2880, 1800), filename='Recording.avi', fps=24.0): # method which can take resolution, filename and fps 
 
     codec = cv2.VideoWriter_fourcc(*'MJPG') # this specifies the codec used, in this case it is CVID 
 
